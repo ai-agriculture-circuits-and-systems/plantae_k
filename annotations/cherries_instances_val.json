@@ -1,0 +1,614 @@
+{
+  "info": {
+    "year": 2019,
+    "version": "1.0.0",
+    "description": "PlantaeK cherries val split",
+    "url": "https://data.mendeley.com/datasets/t6j2h22jpx/1"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "cherries/diseased/images/cherry_d002.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 2,
+      "file_name": "cherries/diseased/images/cherry_d012.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 3,
+      "file_name": "cherries/diseased/images/cherry_d018.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 4,
+      "file_name": "cherries/diseased/images/cherry_d021.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 5,
+      "file_name": "cherries/diseased/images/cherry_d025.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 6,
+      "file_name": "cherries/diseased/images/cherry_d032.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 7,
+      "file_name": "cherries/diseased/images/cherry_d040.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 8,
+      "file_name": "cherries/diseased/images/cherry_d041.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 9,
+      "file_name": "cherries/diseased/images/cherry_d050.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 10,
+      "file_name": "cherries/diseased/images/cherry_d068.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 11,
+      "file_name": "cherries/diseased/images/cherry_d072.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 12,
+      "file_name": "cherries/diseased/images/cherry_d076.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 13,
+      "file_name": "cherries/diseased/images/cherry_d087.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 14,
+      "file_name": "cherries/diseased/images/cherry_d088.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 15,
+      "file_name": "cherries/diseased/images/cherry_d089.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 16,
+      "file_name": "cherries/diseased/images/cherry_d092.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 17,
+      "file_name": "cherries/diseased/images/cherry_d093.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 18,
+      "file_name": "cherries/healthy/images/cherry_h002.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 19,
+      "file_name": "cherries/healthy/images/cherry_h003.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 20,
+      "file_name": "cherries/healthy/images/cherry_h0111.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 21,
+      "file_name": "cherries/healthy/images/cherry_h025.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 22,
+      "file_name": "cherries/healthy/images/cherry_h029.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 23,
+      "file_name": "cherries/healthy/images/cherry_h035.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 24,
+      "file_name": "cherries/healthy/images/cherry_h038.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 25,
+      "file_name": "cherries/healthy/images/cherry_h048.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 26,
+      "file_name": "cherries/healthy/images/cherry_h065.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 27,
+      "file_name": "cherries/healthy/images/cherry_h080.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 28,
+      "file_name": "cherries/healthy/images/cherry_h081.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 29,
+      "file_name": "cherries/healthy/images/cherry_h084.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 30,
+      "file_name": "cherries/healthy/images/cherry_h088.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 31,
+      "file_name": "cherries/healthy/images/cherry_h090.JPG",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 12,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 14,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 15,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 16,
+      "image_id": 16,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 17,
+      "image_id": 17,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 18,
+      "image_id": 18,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 19,
+      "image_id": 19,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 20,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 21,
+      "image_id": 21,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 22,
+      "image_id": 22,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 23,
+      "image_id": 23,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 24,
+      "image_id": 24,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 25,
+      "image_id": 25,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 26,
+      "image_id": 26,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 27,
+      "image_id": 27,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 28,
+      "image_id": 28,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 29,
+      "image_id": 29,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 30,
+      "image_id": 30,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 31,
+      "image_id": 31,
+      "category_id": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "diseased",
+      "supercategory": "cherries"
+    },
+    {
+      "id": 2,
+      "name": "healthy",
+      "supercategory": "cherries"
+    }
+  ],
+  "licenses": []
+}

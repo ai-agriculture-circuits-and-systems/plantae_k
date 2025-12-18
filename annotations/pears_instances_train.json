@@ -1,0 +1,310 @@
+{
+  "info": {
+    "year": 2019,
+    "version": "1.0.0",
+    "description": "PlantaeK pears train split",
+    "url": "https://data.mendeley.com/datasets/t6j2h22jpx/1"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "pears/diseased/images/pear_d001.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 2,
+      "file_name": "pears/diseased/images/pear_d003.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 3,
+      "file_name": "pears/diseased/images/pear_d004.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 4,
+      "file_name": "pears/diseased/images/pear_d005.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 5,
+      "file_name": "pears/diseased/images/pear_d006.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 6,
+      "file_name": "pears/diseased/images/pear_d010.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 7,
+      "file_name": "pears/diseased/images/pear_d011.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 8,
+      "file_name": "pears/diseased/images/pear_d013.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 9,
+      "file_name": "pears/diseased/images/pear_d014.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 10,
+      "file_name": "pears/diseased/images/pear_d015.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 11,
+      "file_name": "pears/diseased/images/pear_d016.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 12,
+      "file_name": "pears/diseased/images/pear_d017.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 13,
+      "file_name": "pears/diseased/images/pear_d019.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 14,
+      "file_name": "pears/diseased/images/pear_d020.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 15,
+      "file_name": "pears/diseased/images/pear_d022.JPG",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 12,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 13,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 14,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 15,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "diseased",
+      "supercategory": "pears"
+    },
+    {
+      "id": 2,
+      "name": "healthy",
+      "supercategory": "pears"
+    }
+  ],
+  "licenses": []
+}

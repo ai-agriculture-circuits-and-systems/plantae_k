@@ -1,0 +1,48 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 8698658699,
+      "width": 6000,
+      "height": 4000,
+      "file_name": "pear_d017.JPG",
+      "size": 2282749,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8698658699,
+      "image_id": 8698658699,
+      "category_id": 13,
+      "bbox": [
+        0,
+        0,
+        6000,
+        4000
+      ],
+      "area": 24000000,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 13,
+      "name": "DISEASED",
+      "supercategory": "PEAR"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "info": {
+    "year": 2019,
+    "version": "1.0.0",
+    "description": "PlantaeK peaches val split",
+    "url": "https://data.mendeley.com/datasets/t6j2h22jpx/1"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "peaches/diseased/images/peach_d009.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 2,
+      "file_name": "peaches/diseased/images/peach_d015.JPG",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "diseased",
+      "supercategory": "peaches"
+    },
+    {
+      "id": 2,
+      "name": "healthy",
+      "supercategory": "peaches"
+    }
+  ],
+  "licenses": []
+}

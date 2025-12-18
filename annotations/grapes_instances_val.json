@@ -1,0 +1,23 @@
+{
+  "info": {
+    "year": 2019,
+    "version": "1.0.0",
+    "description": "PlantaeK grapes val split",
+    "url": "https://data.mendeley.com/datasets/t6j2h22jpx/1"
+  },
+  "images": [],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "diseased",
+      "supercategory": "grapes"
+    },
+    {
+      "id": 2,
+      "name": "healthy",
+      "supercategory": "grapes"
+    }
+  ],
+  "licenses": []
+}

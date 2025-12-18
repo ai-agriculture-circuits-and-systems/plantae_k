@@ -1,0 +1,234 @@
+{
+  "info": {
+    "year": 2019,
+    "version": "1.0.0",
+    "description": "PlantaeK peaches train split",
+    "url": "https://data.mendeley.com/datasets/t6j2h22jpx/1"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "peaches/diseased/images/peach_d001.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 2,
+      "file_name": "peaches/diseased/images/peach_d002.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 3,
+      "file_name": "peaches/diseased/images/peach_d003.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 4,
+      "file_name": "peaches/diseased/images/peach_d005.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 5,
+      "file_name": "peaches/diseased/images/peach_d006.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 6,
+      "file_name": "peaches/diseased/images/peach_d007.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 7,
+      "file_name": "peaches/diseased/images/peach_d008.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 8,
+      "file_name": "peaches/diseased/images/peach_d010.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 9,
+      "file_name": "peaches/diseased/images/peach_d011.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 10,
+      "file_name": "peaches/diseased/images/peach_d012.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "id": 11,
+      "file_name": "peaches/diseased/images/peach_d018.JPG",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        6000.0,
+        4000.0
+      ],
+      "area": 24000000.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "diseased",
+      "supercategory": "peaches"
+    },
+    {
+      "id": 2,
+      "name": "healthy",
+      "supercategory": "peaches"
+    }
+  ],
+  "licenses": []
+}

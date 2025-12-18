@@ -1,0 +1,48 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 3874672698,
+      "width": 3615,
+      "height": 3415,
+      "file_name": "cherry_d069.jpg",
+      "size": 1675529,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3874672698,
+      "image_id": 3874672698,
+      "category_id": 5,
+      "bbox": [
+        0,
+        0,
+        3615,
+        3415
+      ],
+      "area": 12345225,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "DISEASED",
+      "supercategory": "CHERRY"
+    }
+  ]
+}

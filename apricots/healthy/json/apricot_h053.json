@@ -1,0 +1,48 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 5927694698,
+      "width": 6000,
+      "height": 4000,
+      "file_name": "apricot_h053.JPG",
+      "size": 2525646,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 5927694698,
+      "image_id": 5927694698,
+      "category_id": 4,
+      "bbox": [
+        0,
+        0,
+        6000,
+        4000
+      ],
+      "area": 24000000,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "HEALTHY",
+      "supercategory": "APRICOT"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 9290753699,
+      "width": 6000,
+      "height": 4000,
+      "file_name": "peach_d015.JPG",
+      "size": 2406929,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9290753699,
+      "image_id": 9290753699,
+      "category_id": 11,
+      "bbox": [
+        0,
+        0,
+        6000,
+        4000
+      ],
+      "area": 24000000,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 11,
+      "name": "DISEASED",
+      "supercategory": "PEACH"
+    }
+  ]
+}
