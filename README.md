@@ -1,45 +1,67 @@
 # PlantaeK Dataset
 
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](#changelog)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?logo=semver&logoColor=white)](https://github.com/your-repo/plantae_k)
+[![GitHub stars](https://img.shields.io/github/stars/your-repo/plantae_k?style=flat&logo=github&label=Stars&color=orange&labelColor=orange&logoColor=white)](https://github.com/your-repo/plantae_k)
+[![GitHub forks](https://img.shields.io/github/forks/your-repo/plantae_k?style=flat&logo=github&label=Forks&color=yellow&labelColor=yellow&logoColor=white)](https://github.com/your-repo/plantae_k)
+[![GitHub watchers](https://img.shields.io/github/watchers/your-repo/plantae_k?style=flat&logo=github&label=Watchers&color=cyan&labelColor=cyan&logoColor=white)](https://github.com/your-repo/plantae_k)
+[![GitHub issues](https://img.shields.io/github/issues/your-repo/plantae_k?style=flat&logo=github&label=Issues&color=red&labelColor=red&logoColor=white)](https://github.com/your-repo/plantae_k/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/your-repo/plantae_k?style=flat&logo=github&label=PRs&color=lime&labelColor=lime&logoColor=white)](https://github.com/your-repo/plantae_k/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/your-repo/plantae_k?style=flat&logo=github&label=Contributors&color=purple&labelColor=purple&logoColor=white)](https://github.com/your-repo/plantae_k/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/plantae_k?style=flat&logo=github&label=Last%20Commit&color=gray&labelColor=gray&logoColor=white)](https://github.com/your-repo/plantae_k/commits)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.xxxxx-indigo?logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.xxxxx)
 
 A comprehensive dataset containing high-resolution images of plant leaves, divided into multiple categories based on species and health status. This dataset is particularly focused on native plants of Jammu and Kashmir. This dataset follows the standardized dataset structure specification.
 
 - **Project page**: `https://data.mendeley.com/datasets/t6j2h22jpx/1`
+- **Original paper**: (to be added)
+- **Dataset repository**: `https://data.mendeley.com/datasets/t6j2h22jpx/1`
 - **TensorFlow Dataset Catalog**: `https://www.tensorflow.org/datasets/catalog/plantae_k`
 
 ## TL;DR
-- Task: classification (healthy/diseased)
-- Modality: RGB
-- Platform: handheld/field
-- Real/Synthetic: real
-- Images: ~2,153 (8 plant species, 2 health statuses each)
-- Resolution: variable (high-resolution)
-- Annotations: per-image CSV and JSON; COCO format available
-- License: CC BY 4.0 (see LICENSE)
-- Citation: see below
 
-## Table of contents
+- **Task**: Classification
+- **Modality**: RGB
+- **Platform**: Ground
+- **Real/Synthetic**: Real
+- **Images**: ~2,153 labeled images
+- **Classes**: 8 plant species × 2 health statuses = 16 categories
+  - **Apples**: healthy (160), diseased (191)
+  - **Apricots**: healthy (86), diseased (184)
+  - **Cherries**: healthy (117), diseased (95)
+  - **Cranberries**: healthy (118), diseased (94)
+  - **Grapes**: healthy (162), diseased (9)
+  - **Peaches**: healthy (313), diseased (18)
+  - **Pears**: healthy (114), diseased (114)
+  - **Walnuts**: healthy (93), diseased (285)
+- **Resolution**: Variable (high-resolution, e.g., 6000×4000 pixels)
+- **Annotations**: COCO JSON (image-level via full-image boxes)
+- **Total annotations**: ~2,153 (one per image for classification)
+- **License**: CC BY 4.0 (see LICENSE)
+- **Citation**: See below
+
+## Table of Contents
 - [Download](#download)
-- [Dataset structure](#dataset-structure)
-- [Sample images](#sample-images)
-- [Annotation schema](#annotation-schema)
-- [Stats and splits](#stats-and-splits)
-- [Quick start](#quick-start)
-- [Evaluation and baselines](#evaluation-and-baselines)
-- [Datasheet (data card)](#datasheet-data-card)
-- [Known issues and caveats](#known-issues-and-caveats)
+- [Dataset Structure](#dataset-structure)
+- [Sample Images](#sample-images)
+- [Annotation Schema](#annotation-schema)
+- [Stats and Splits](#stats-and-splits)
+- [Quick Start](#quick-start)
+- [Evaluation and Baselines](#evaluation-and-baselines)
+- [Datasheet (Data Card)](#datasheet-data-card)
+- [Known Issues and Caveats](#known-issues-and-caveats)
 - [License](#license)
 - [Citation](#citation)
 - [Changelog](#changelog)
 - [Contact](#contact)
 
 ## Download
-- Original dataset: `https://data.mendeley.com/datasets/t6j2h22jpx/1`
-- This repo hosts structure and conversion scripts only; place the downloaded folders under this directory.
-- Local license file: see `LICENSE` (Creative Commons Attribution 4.0 International).
 
-## Dataset structure
+- **Original dataset**: `https://data.mendeley.com/datasets/t6j2h22jpx/1`
+- **This repository**: Hosts structure and conversion scripts only; place the downloaded folders under this directory.
+- **Local license file**: See `LICENSE` (CC BY 4.0).
+
+## Dataset Structure
 
 This dataset follows the standardized dataset structure specification:
 
@@ -93,7 +115,7 @@ plantae_k/
 
 - Splits: `{category}/sets/train.txt`, `{category}/sets/val.txt`, `{category}/sets/test.txt` (and also `all.txt`, `train_val.txt`) list image basenames (no extension). Splits are shared across all subcategories within a category.
 
-## Sample images
+## Sample Images
 
 Below are example images from this dataset. Paths are relative to this README location.
 
@@ -132,24 +154,19 @@ Below are example images from this dataset. Paths are relative to this README lo
   </tr>
 </table>
 
-## Annotation schema
+## Annotation Schema
 
-### CSV Format
-
-CSV per-image schemas (stored under `{category}/{subcategory}/csv/` folder):
-- Columns: `#item, x, y, width, height, label`
-- For classification tasks, each image has a full-image bounding box: `[0, 0, image_width, image_height]`
-- The `label` field corresponds to the subcategory ID from `labelmap.json` (1=diseased, 2=healthy, etc.)
-
-Example:
-```csv
-#item,x,y,width,height,label
-0,0,0,6000,4000,1
-```
-
-### JSON Format
-
-Each image has a corresponding JSON annotation file (stored under `{category}/{subcategory}/json/`):
+- **CSV per-image schema** (stored under `{category}/{subcategory}/csv/` folder):
+  - Columns: `item, x, y, width, height, label`
+  - For classification tasks, each image has a full-image bounding box: `[0, 0, image_width, image_height]`
+  - The `label` field corresponds to the subcategory ID from `labelmap.json` (1=diseased, 2=healthy, etc.)
+  - Example:
+    ```csv
+    #item,x,y,width,height,label
+    0,0,0,6000,4000,1
+    ```
+  
+- **JSON per-image format** (stored under `{category}/{subcategory}/json/`):
 
 ```json
 {
@@ -197,11 +214,7 @@ Each image has a corresponding JSON annotation file (stored under `{category}/{s
 }
 ```
 
-### Label Maps
-
-Label maps are stored at `{category}/labelmap.json` and contain all subcategories for that category:
-
-Example (`apples/labelmap.json`):
+- **Label maps**: `{category}/labelmap.json` contains all subcategories for that category. Example (`apples/labelmap.json`):
 ```json
 [
   {
@@ -225,9 +238,7 @@ Example (`apples/labelmap.json`):
 ]
 ```
 
-### COCO Format
-
-COCO-style annotations (generated via `scripts/convert_to_coco.py`):
+- **COCO-style** (generated via `scripts/convert_to_coco.py`):
 
 ```json
 {
@@ -270,7 +281,7 @@ COCO-style annotations (generated via `scripts/convert_to_coco.py`):
 }
 ```
 
-## Stats and splits
+## Stats and Splits
 
 ### Image Counts by Category
 
@@ -299,38 +310,40 @@ Default split ratios:
 
 Splits are shared across all subcategories within each category (e.g., all healthy and diseased apples share the same train/val/test split).
 
-## Quick start
+## Quick Start
 
 ### Using COCO API
 
 ```python
 from pycocotools.coco import COCO
-import matplotlib.pyplot as plt
+import json
 
-# Load annotations
+# Load COCO annotations
 coco = COCO('annotations/apples_instances_train.json')
 
-# Get image IDs
+# Get all image IDs
 img_ids = coco.getImgIds()
-print(f"Number of images: {len(img_ids)}")
+print(f"Total images: {len(img_ids)}")
 
-# Get category IDs
+# Get all category IDs
 cat_ids = coco.getCatIds()
-print(f"Categories: {coco.loadCats(cat_ids)}")
+categories = [coco.loadCats([id])[0]['name'] for id in cat_ids]
+print(f"Categories: {categories}")
 
-# Load and display an image
+# Load a specific image and its annotations
 img_id = img_ids[0]
-img_info = coco.loadImgs(img_id)[0]
-ann_ids = coco.getAnnIds(imgIds=img_id)
+img_info = coco.loadImgs([img_id])[0]
+ann_ids = coco.getAnnIds(imgIds=[img_id])
 anns = coco.loadAnns(ann_ids)
 
 print(f"Image: {img_info['file_name']}")
+print(f"Size: {img_info['width']}x{img_info['height']}")
 print(f"Annotations: {len(anns)}")
 ```
 
-### Converting to COCO Format
+### Converting to COCO format
 
-If you need to regenerate COCO format annotations:
+If you need to regenerate COCO annotations from CSV files:
 
 ```bash
 python scripts/convert_to_coco.py --root . \
@@ -340,10 +353,10 @@ python scripts/convert_to_coco.py --root . \
 
 ### Dependencies
 
-Required:
+**Required**:
 - `Pillow>=9.5` (for image processing)
 
-Optional:
+**Optional**:
 - `pycocotools>=2.0.7` (for COCO API)
 
 Install with:
@@ -351,57 +364,52 @@ Install with:
 pip install -r requirements.txt
 ```
 
-## Evaluation and baselines
+## Evaluation and Baselines
 
-This dataset is primarily designed for **image classification** tasks (healthy vs. diseased).
+- **Primary metric**: 
+  - Classification: Accuracy, Precision, Recall, F1-score (per class and macro-averaged)
+  - Per-class Accuracy: Accuracy for each health status (healthy vs. diseased)
+  - Confusion Matrix: Per-class performance breakdown
+- **Baseline results**: (to be added)
 
-### Evaluation Metrics
-
-- **Accuracy**: Overall classification accuracy
-- **Per-class Accuracy**: Accuracy for each health status
-- **F1-Score**: F1-score for each class
-- **Confusion Matrix**: Per-class performance breakdown
-
-### Baseline Results
-
-Baseline results are not yet available. If you publish results using this dataset, please consider contributing them here.
-
-## Datasheet (data card)
+## Datasheet (Data Card)
 
 ### Motivation
 
-The dataset was created to support research in plant disease detection and classification, particularly for native plants of the Jammu and Kashmir region. It enables the development of automated plant health monitoring systems and supports agricultural technology applications.
+This dataset was created to support research in plant disease detection and classification, particularly for native plants of the Jammu and Kashmir region, which is crucial for automated disease detection in agricultural applications.
 
 ### Composition
 
-- **Image Types**: High-resolution photographs of plant leaves
-- **Categories**: 8 plant species (apples, apricots, cherries, cranberries, grapes, peaches, pears, walnuts)
-- **Subcategories**: 2 health statuses per species (healthy, diseased)
-- **Total Images**: ~2,153 images
-- **Format**: JPG/PNG images with JSON and CSV annotations
+The dataset consists of:
+- **Image types**: High-resolution photographs of plant leaves
+- **Categories**: 8 plant species (apples, apricots, cherries, cranberries, grapes, peaches, pears, walnuts) with 2 health statuses each (healthy, diseased)
+- **Annotation format**: Image-level classification annotations (via full-image bounding boxes)
 
 ### Collection Process
 
-The dataset was collected and curated by Vippon Preet Kour and Sakshi Arora, focusing on native plants of Jammu and Kashmir region. Images were captured in field conditions using handheld devices.
+- **Source**: Dataset collected and curated by Vippon Preet Kour and Sakshi Arora, focusing on native plants of Jammu and Kashmir region
+- **Annotation tool**: Images captured in field conditions using handheld devices
+- **Validation**: Images organized by species and health status
 
 ### Preprocessing
 
-- Images are organized by species and health status
-- Annotations are provided in both JSON and CSV formats
-- Full-image bounding boxes are used for classification tasks
-- Dataset has been reorganized to follow standardized structure specification
+- Images organized by species and health status
+- Annotations provided in both JSON and CSV formats
+- Full-image bounding boxes used for classification tasks
+- Dataset reorganized to follow standardized structure specification
 
 ### Distribution
 
-- **Source**: Mendeley Data (`https://data.mendeley.com/datasets/t6j2h22jpx/1`)
-- **License**: Creative Commons Attribution 4.0 International (CC BY 4.0)
-- **Format**: Standardized directory structure with conversion scripts
+- Dataset is distributed under CC BY 4.0 license
+- Original data available from Mendeley Data
+- This repository provides standardized structure and conversion scripts
 
 ### Maintenance
 
-This repository maintains the standardized structure and provides conversion scripts. For original dataset updates, refer to the Mendeley Data repository.
+- Dataset structure has been standardized according to the dataset structure specification
+- COCO format annotations are generated from CSV files using the provided conversion script
 
-## Known issues and caveats
+## Known Issues and Caveats
 
 1. **File Format**: Some image files may be corrupted or unreadable (particularly in grapes/healthy and peaches/healthy subcategories). These files are automatically skipped during conversion.
 
@@ -417,18 +425,11 @@ This repository maintains the standardized structure and provides conversion scr
 
 ## License
 
-This dataset is licensed under the **Creative Commons Attribution 4.0 International License** (CC BY 4.0).
-
-See the `LICENSE` file for the full license text.
-
-**Key points**:
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ⚠️ Attribution required
+This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 Check the original dataset terms and cite appropriately.
+
+See `LICENSE` file for full license text.
 
 ## Citation
 
@@ -447,13 +448,9 @@ If you use this dataset in your research, please cite:
 ## Changelog
 
 - **V1.0.0** (2025): Initial standardized structure and COCO conversion utility
-  - Reorganized dataset to follow standardized structure specification
-  - Created conversion scripts for COCO format
-  - Added comprehensive documentation
 
 ## Contact
 
-- **Maintainers**: Dataset structure maintained in this repository
-- **Original Authors**: Vippon Preet Kour, Sakshi Arora
+- **Maintainers**: Open to contributions via issue tracker
+- **Original authors**: Vippon Preet Kour, Sakshi Arora
 - **Source**: `https://data.mendeley.com/datasets/t6j2h22jpx/1`
-- **TensorFlow Dataset**: `https://www.tensorflow.org/datasets/catalog/plantae_k`
